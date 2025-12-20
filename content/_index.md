@@ -5,7 +5,7 @@ layout: landing
 
 <div class="book-hero">
 
-# HUGO BOOK {anchor=false}
+# Yujun Heo {anchor=false}
 [Hugo](https://gohugo.io) documentation theme as simple as plain book
 
 [{{< badge style="info" title="Hugo" value="0.146" >}}](https://github.com/gohugoio/hugo/releases/tag/v0.146.7)
@@ -17,7 +17,7 @@ layout: landing
 
 {{% columns %}}
 - ## What Hugo-Book Theme Is
-  Hugo book theme is primarily designed to create technical documentation sites that are easy to read, write, navigate and maintain. It is an attempt to create a sustainable web project.
+  Hugo book theme is primarily designed to create technical documentation sites that are easy to read, write, navigate and maintain. It is an attempt to create a sustainable web project. .... 1234567890
 
 - ## What Hugo-Book Theme Is Not
   Book theme is not trying to implement all features but to create a starting point. It is mostly feature complete and gets updated and improved to stay relevant with Hugo and modern web.

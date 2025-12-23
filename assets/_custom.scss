@@ -1,5 +1,10 @@
 .book-hero .external-link {
     font-weight: 600;
+    color: oklch(54.6% 0.245 262.881);
+}
+
+.book-hero .external-link:visited {
+    color: oklch(54.6% 0.245 262.881) !important;
 }
 
 .book-kind-home .container {
@@ -25,7 +30,7 @@
 }
 
 .book-kind-home .github-link:hover {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .book-kind-home .github-link img {

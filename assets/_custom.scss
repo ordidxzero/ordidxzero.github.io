@@ -21,6 +21,11 @@
     padding: 0.25rem 0;
     cursor: pointer;
     border-radius: 0.25rem;
+    text-decoration: none;
+}
+
+.book-kind-home .github-link:hover {
+    text-decoration: none;
 }
 
 .book-kind-home .github-link img {

@@ -1,0 +1,62 @@
+.book-hero .external-link {
+    font-weight: 600;
+}
+
+.book-kind-home .container {
+    max-width: 50rem;
+    user-select: none;
+}
+
+.book-kind-home .profile-img {
+    border: 1px solid oklch(92.2% 0 0);
+    pointer-events: none;
+}
+
+.book-kind-home .github-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25292E;
+    gap: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+    border-radius: 0.25rem;
+}
+
+.book-kind-home .github-link img {
+    width: 20px;
+    pointer-events: none;
+}
+
+.book-kind-home .github-link .btn-text {
+    color: #FFFAFA;
+    font-weight: 600;
+}
+
+.book-kind-home .github-link .book-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.terminal-font {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.blog-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.25rem 0;
+    background-color: black;
+    color: #6CE946 !important;
+    text-decoration: none;
+    margin-top: 0.25rem;
+    border-radius: 0.25rem;
+}
+
+.blog-link:hover {
+    text-decoration: none !important;
+}

@@ -2,3 +2,6 @@ baseURL = 'https://yujunheo.me/'
 languageCode = 'ko-kr'
 title = 'My New Hugo Site'
 theme = "hugo-book"
+
+[markup.goldmark.renderer]
+  unsafe = true

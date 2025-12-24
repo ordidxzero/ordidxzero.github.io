@@ -1,7 +1,11 @@
 baseURL = 'https://yujunheo.me/'
 languageCode = 'ko-kr'
-title = 'My New Hugo Site'
+title = 'Engineering Notes'
 theme = "hugo-book"
 
 [markup.goldmark.renderer]
   unsafe = true
+
+[params]
+  BookFavicon = 'favicon.png'
+  BookLogo = 'original.png'

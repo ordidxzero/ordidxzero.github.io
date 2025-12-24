@@ -17,6 +17,16 @@
     pointer-events: none;
 }
 
+.book-kind-home .book-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-kind-home .empty-img img {
+    width: 50%;
+}
+
 .book-kind-home .github-link {
     display: flex;
     align-items: center;
@@ -69,4 +79,12 @@
 
 .blog-link:hover {
     text-decoration: none !important;
+}
+
+.book-menu-content * {
+    user-select: none;
+}
+
+.book-page *::selection, .book-page *::-moz-selection {
+    background-color: #FCEFA4;
 }

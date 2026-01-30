@@ -1,3 +1,7 @@
+---
+bookToC: false
+---
+
 # Introduction
 
 세상이 빠르게 변합니다. 자고 일어나면 새로운 기술이 등장합니다. 기술이 넘쳐날수록 무엇 하나를 정답처럼 콕 집어 선택하기는 더 어려워집니다. 이런 때일수록 저는, 결국 **본질**에 더 집중해야 한다고 생각합니다. <br>제가 관심을 가지고 있는 Efficient Algorithms and Systems for Large Language Models의 본질에 다가가기 위해, 필요한 지식과 고민을 밀도 있게 기록하고자 합니다.

@@ -13,7 +13,7 @@ Previously, I received my B.Eng. in Electronic Engineering from <a href="https:/
 My research interests focus on Efficient Algorithms and Systems for Large Language Models. 
 <---> 
 <div>
-  <div>{{< image src="https://avatars.githubusercontent.com/u/60772480?v=4" alt="Profile Image" title="Profile Image" loading="lazy" class="profile-img" >}}</div>
+  <div class="profile-img">{{< image src="https://avatars.githubusercontent.com/u/60772480?v=4" alt="Profile Image" title="Profile Image" loading="lazy" >}}</div>
   <a href="https://github.com/ordidxzero" target="_blank" class="github-link">
     <span>{{< image src="/assets/github-mark-white.png" alt="Github" title="Github Logo" loading="lazy" >}}</span>
     <span class="btn-text">Github</span>

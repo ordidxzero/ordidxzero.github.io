@@ -1,0 +1,23 @@
+{{ with .Params.title }}
+  <div class="doc-title">{{ . }}</div>
+{{ end }}
+
+{{ if or .Params.date .Params.tags}}
+<div class="doc-metadata">
+{{with .Date }}
+  <div class="doc-date">{{ time.Format "2006년 01월 02일" . }}</div>
+{{ end }}
+{{ with .Params.tags }}
+<span class="doc-seperator">·</span>
+<nav class="doc-tag-container">
+  <ul class="doc-tag-ul">
+    {{ range . }}
+      <li class="flex align-center">
+        <a href="{{ (printf "/tags/%s/" .) | urlize }}">{{ . }}</a>
+      </li>
+    {{ end }}
+  </ul>
+</nav>
+{{ end }}
+</div>
+{{ end }}

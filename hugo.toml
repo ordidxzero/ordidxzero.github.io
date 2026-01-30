@@ -6,6 +6,13 @@ theme = "hugo-book"
 [markup.goldmark.renderer]
   unsafe = true
 
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 1
+
 [params]
   BookFavicon = 'favicon.png'
   BookLogo = 'original.png'
+  BookDateFormat = '2006년 01월 02일'

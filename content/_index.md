@@ -14,11 +14,12 @@ My research interests focus on Efficient Algorithms and Systems for Large Langua
 <---> 
 <div>
   <div class="profile-img">{{< image src="https://avatars.githubusercontent.com/u/60772480?v=4" alt="Profile Image" title="Profile Image" loading="lazy" >}}</div>
-  <a href="https://github.com/ordidxzero" target="_blank" class="github-link">
+  <a href="https://github.com/ordidxzero" target="_blank" class="profile-link github">
     <span>{{< image src="/assets/github-mark-white.png" alt="Github" title="Github Logo" loading="lazy" >}}</span>
     <span class="btn-text">Github</span>
   </a>
-  <a href="/docs" class="terminal-font blog-link">> open /blog</a>
+  <a href="/docs" class="terminal-font profile-link docs">> open /docs</a>
+  <!-- <a href="/posts" class="terminal-font profile-link blog">> open /blog</a> -->
 </div>
 {{% /columns %}}
 

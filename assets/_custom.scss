@@ -1,3 +1,7 @@
+html {
+   overscroll-behavior-y: none;
+}
+
 .book-hero .external-link {
     font-weight: 600;
     color: oklch(54.6% 0.245 262.881);
@@ -30,37 +34,45 @@
     width: 50%;
 }
 
-.book-kind-home .github-link {
+.profile-link {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #25292E;
-    gap: 0.5rem;
     padding: 0.25rem 0;
-    cursor: pointer;
-    border-radius: 0.25rem;
     text-decoration: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
 }
 
-.book-kind-home .github-link:hover {
+.profile-link + .profile-link {
+    margin-top: 0.25rem;
+}
+
+.book-kind-home .profile-link.github {
+    background-color: #25292E;
+    gap: 0.5rem;
+}
+
+
+.book-kind-home .profile-link:hover {
     text-decoration: none !important;
 }
 
-.book-kind-home .github-link img {
+.book-kind-home .profile-link.github img {
     width: 20px;
     pointer-events: none;
 }
 
-.book-kind-home .github-link label {
+.book-kind-home .profile-link.github label {
     pointer-events: none;
 }
 
-.book-kind-home .github-link .btn-text {
+.book-kind-home .profile-link.github .btn-text {
     color: #FFFAFA;
     font-weight: 600;
 }
 
-.book-kind-home .github-link .book-image {
+.book-kind-home .profile-link.github .book-image {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,22 +82,8 @@
   font-family: "Space Mono", monospace;
   font-weight: 700;
   font-style: normal;
-}
-
-.blog-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.25rem 0;
-    background-color: black;
-    color: #6CE946 !important;
-    text-decoration: none;
-    margin-top: 0.25rem;
-    border-radius: 0.25rem;
-}
-
-.blog-link:hover {
-    text-decoration: none !important;
+  color: #6CE946 !important;
+  background-color: black;
 }
 
 .book-menu-content * {
@@ -103,10 +101,15 @@
 
 .book-page .doc-metadata {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: flex-start;
     gap: 0.5rem;
     margin-bottom: 2rem;
+}
+
+.book-page .doc-tag-container {
+    z-index: -1;
 }
 
 .book-page .doc-tag-ul {
@@ -114,6 +117,7 @@
     align-items: center;
     justify-content: flex-start;
     gap: 0.5rem;
+    flex-wrap: wrap;
 }
 
 .book-page .doc-tag-ul li {
@@ -124,6 +128,27 @@
 .book-page .doc-tag-ul li a {
     background-color: oklch(54.742% 0.24331 262.725 / 0.1);
     padding: 0.175rem 0.75rem;
+}
+
+.book-header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    padding: 1rem 0;
+}
+
+.book-header .header-title {
+    opacity: 0;
+    transition: opacity;
+    transition-duration: 150ms;
+}
+
+.gap-2 {
+    gap: 0.5rem;   
+}
+
+.font-bold {
+    font-weight: bold;
 }
 
 .markdown h1, .book-page .doc-title {
@@ -137,4 +162,23 @@
 }
 .markdown h4 {
   font-size: 1.25rem !important;
+}
+
+:where(.markdown) :where(h1, h2, h3, h4) {
+    font-weight: 500 !important;
+}
+
+@media screen and (max-width: $mobile-breakpoint) {
+    .book-kind-home .profile-img {
+        margin-bottom: 1rem;
+    }
+    .book-kind-home .profile-link {
+        padding: 0.5rem 0;
+    }
+    .profile-link + .profile-link {
+        margin-top: 0.375rem;
+    }
+    .book-page {
+        padding-top: 0 !important;
+    }
 }

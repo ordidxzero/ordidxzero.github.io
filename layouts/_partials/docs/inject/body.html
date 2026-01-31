@@ -1,0 +1,19 @@
+<script>
+    const header = document.querySelector(".book-header")
+    const isHeaderRender = header.clientHeight > 0
+    
+    if (isHeaderRender) {
+        const headerTitle = header.querySelector(".header-title")
+        const title = document.querySelector(".book-page .doc-title")
+        const io = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                headerTitle.style.opacity = 1 - entry.intersectionRatio
+            })
+        }, {
+            rootMargin: `-${header.clientHeight}px 0px 0px 0px`,
+            threshold: [0, 0.25, 0.5, 0.75, 1]
+        })
+
+        io.observe(title)
+    }
+</script>

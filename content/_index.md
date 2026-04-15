@@ -10,7 +10,7 @@ layout: landing
 {{% columns ratio="3:1" %}}
 I am a second-year in the integrated Ph.D. program at <a href="http://aisemi.hanyang.ac.kr/" class="external-link" target="_blank">HYU AISEMI</a>, advised by Prof. <a href="https://scholar.google.co.kr/citations?user=YPT98zwAAAAJ&hl=en" class="external-link" target="_blank">Jungwook Choi</a>.<br>
 Previously, I received my B.Eng. in Electronic Engineering from <a href="https://hanyang.ac.kr/web/eng" class="external-link" target="_blank">Hanyang University</a>. <br>
-My research interests focus on Efficient Algorithms and Systems for Large Language Models. 
+My research interests focus on Efficient Algorithms and Systems for Large Language Models, specifically targeting on-device deployment.
 <---> 
 <div>
   <div class="profile-img">{{< image src="https://avatars.githubusercontent.com/u/60772480?v=4" alt="Profile Image" title="Profile Image" loading="lazy" >}}</div>

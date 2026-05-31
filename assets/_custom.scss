@@ -31,7 +31,7 @@ html {
 }
 
 .book-kind-home .empty-img img {
-    width: 50%;
+    width: 100%;
 }
 
 .profile-link {
@@ -145,6 +145,14 @@ html {
 
 .gap-2 {
     gap: 0.5rem;   
+}
+
+.underline {
+    text-decoration: underline;
+    text-underline-offset: 0.25rem;
+    text-decoration-thickness: 0.125rem;
+    text-decoration-color: red;
+    font-weight: bold;
 }
 
 .font-bold {
